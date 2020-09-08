@@ -45,7 +45,7 @@ int main()
     ArchiOrde << A[i] << " ";
     }
     ArchiOrde << "}\n";
-    
+    ArchiOrde.close();
     
     return 0;
 }

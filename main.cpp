@@ -11,7 +11,7 @@ int main()
     cout<<"Ingresa la cantidad de elementos del arreglo: ";
     cin>>n;
     ArchiOrde << "Cantidad de elementos: " << n  <<endl << "Original: {";
-    for(i=1;i<=n;i++)
+    for(i=0;i<n;i++)
     {
       cout << "Ingrese el elemento " << i+1 <<": ";
       cin >> A[i];
